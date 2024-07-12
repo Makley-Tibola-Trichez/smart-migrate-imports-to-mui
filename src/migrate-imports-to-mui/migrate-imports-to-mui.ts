@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import type { API, FileInfo,  } from 'jscodeshift';
 import { removeSmartCoreImports } from './smart-core-imports';
 import { removeSmartHooksImports } from './smart-hooks-imports';
