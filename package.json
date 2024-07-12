@@ -1,0 +1,18 @@
+{
+  "name": "smart-migrate-imports-to-mui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "bin": {
+    "migrate-imports": "./dist/migrate-imports-to-mui.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@types/jscodeshift": "^0.11.11",
+    "jscodeshift": "^0.16.1",
+    "typescript": "^5.5.3"
+  }
+}
